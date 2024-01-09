@@ -1,0 +1,46 @@
+[Program Information]
+Detection Type: basic
+program version: 1.0 initial release
+[Data Information]
+Home Directory of Data: 
+/home/guckel02/Nextcloud2/JGDP_Doktorarbeit/scripts/dimer_identification/package/test_data/
+Relative Working Directory of the Data Subset:
+SE/
+Name of Results Folder: 
+test
+Data Format: 
+tif
+Pixel Size: 
+0.69447
+Unit of Pixel size: 
+nm
+[Detection Parameters]
+Canny Edge Detection Threshold p1 (8-bit unsigned integer) 
+60
+Voting Threshold p2 (integer)
+13
+Max Radius (pixel): 
+13
+Min Radius (pixel): 
+17
+Particle Overlap Factor P (no unit) - minimum distance between neighboring particles = P * r: 
+1.5
+Monomer radius (float, unit identical to pixel)
+70
+"strictness of the agglomeration search (integer > 2, default 2)"
+2
+[Pre-Processing Parameters]
+Standard Deviation Gaussian Blurring (no unit): 
+2.0
+Databar Length (Pixel): 
+140
+Use Bottom Threshold (bool): 
+True
+Bottom Threshold: 
+0.0
+use Top Threshold (bool): 
+True
+Top Threshold: 
+1.0
+Use Dehalo routine? Use is recommended. Inactive if either threshold is unused
+True

@@ -1,0 +1,53 @@
+[Program Information]
+Detection Type: with origami
+program version: 1.0 initial release
+[Data Information]
+Home Directory of Data: 
+/home/guckel02/Nextcloud2/JGDP_Doktorarbeit/scripts/dimer_identification/package/test_data/
+Relative Working Directory of the Data Subset:
+SE/
+Name of Results Folder: 
+advanced_test/
+Data Format: 
+tif
+Pixel Size: 
+0.674479
+Unit of Pixel size: 
+nm
+[Detection Parameters]
+Canny Edge Detection Threshold p1 (8-bit unsigned integer) 
+70
+Voting Threshold p2 (integer)
+15
+Min Radius (pixel): 
+12
+Max Radius (pixel): 
+18
+Particle Overlap Factor P (no unit) - minimum distance between neighboring particles = P * r: 
+1.5
+"Monomer radius dmax, float. unit identical pixel unit given earlier)"
+70
+Threshold for Noise Pixel cluster (pixel): 
+1017.8760197630929
+Threshold for origami cluster (pixel: 
+4071.5040790523717
+[Segmentation Parameters]
+"Background Segmentation Mode (0, 1, 2)"
+"if you edit the mode, you have to manually edit which thresholds to apply."
+Mode 0: Only top is active. Mode 1: only bottom is active. Mode 2: only inverse_bandpass is active
+2
+Use Bottom Threshold (bool): 
+False
+Bottom Threshold: 
+0.1
+use Top Threshold (bool): 
+False
+Top Threshold: 
+0.95
+use inverse bandpass (bool): 
+True
+[Pre-Processing Parameters]
+Standard Deviation Gaussian Blurring (no unit): 
+1.5
+Databar Length (Pixel): 
+140
