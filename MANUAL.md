@@ -1,3 +1,6 @@
+# Authors of Software
+Jannik Guckel, Daesung Park
+
 # Short Manual of the Software
 
 This is an internal repository containing the Iterative Scanner Software introduced in *Link*
