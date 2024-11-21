@@ -129,5 +129,5 @@ This program is available under the GPLv3.
 
 ## Citation
 
-Please cite our software at *Link to paper*, if you are using it in any publication. 
+Please cite our software at https://onlinelibrary.wiley.com/doi/10.1111/jmi.13371, if you are using it in any publication. 
 
